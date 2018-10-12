@@ -1,0 +1,423 @@
+/* css for jimsir's portfolio page */
+
+
+body{
+    font-family: poppins-Black;
+}
+
+.navbar{
+    height:45px;
+    background:white;
+    width: 100%;
+   
+}
+.navbar-brand{
+    letter-spacing: 10px;
+    font-weight:bold;
+}
+.effizy{
+    background-color:blue;
+    color:white;
+   
+}
+li {
+ font-weight: 500px;
+}
+.mainHead{
+    font-size: 36px;
+}
+
+.mainPara{
+    font-size: 20px;
+    line-height: 40px;
+
+}
+.mainImage{
+    
+    justify-self: center;
+    width:458px;
+    height:458px;
+   
+}
+.main2{
+  margin-top:10px; 
+  justify-content: center;
+}
+
+.main{
+    margin-top:71px;
+}
+
+.single-progress-item {
+    margin-bottom: 35px;
+    position: relative;
+}
+.progress-bar-style {
+    display: block;
+    height: 4px;
+    position: relative;
+    width: 100%;
+    border-radius: 25px;
+}
+.bar-inner{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 25px;
+    background: #333;
+    width:100%;
+    
+}
+.bar-inner span{
+    position: absolute;
+    font-weight: bold;
+    top: -18px;
+    font-size: 10px;
+    width: 35px;
+    height: 35px;
+    padding-top: 11px;
+    letter-spacing: 0px;
+    background: #fff;
+    text-align: center;
+    border-radius: 57%;
+    -webkit-box-shadow: 0 0 10px rgba(45, 45, 45, 0.2);
+    box-shadow: 0 0 10px rgba(45, 45, 45, 0.2);
+}
+.graphic{
+    margin-bottom:23px;
+}
+
+.sub-head{
+    font-size: 30px;
+}
+
+
+
+.bt{
+    margin-top:10px;
+}
+.last{
+    margin-bottom: 50px;
+}
+.portfolio-section {
+    background: #fff;
+}
+
+.stitle{
+    text-align: center;
+    margin-top:100px;
+    font-family: poppins medium;
+}
+mainSec{
+    margin-top:100px;
+}
+.portfolio-filter{
+    list-style: none;
+    text-align: center;
+   
+}
+
+.portfolio-filter li.active{
+    background: #fff;
+    padding: 3px 12px;
+    border-radius: 20px;
+    border-color: #ddd;
+    
+}
+
+
+.portfolio-filter li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 12px;
+    padding: 3px 0;
+    cursor: pointer;
+    border-color: transparent;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    
+}
+
+
+.portfolio-filter{
+    margin-top:80px;
+    margin-bottom:67px;
+}
+
+.portfArrange1{
+    margin-bottom:30px;
+    justify-items: center;
+}
+
+.portfArrange2{
+    margin-bottom: 20px;
+    justify-items: center;
+}
+
+
+.footer-content{
+    text-align: center;
+    margin-top: 71px;
+}
+
+
+.footer-content p {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: normal;
+}
+
+.myStrategy{
+    text-align: center;
+    margin-bottom: 100px;
+   
+}
+
+.las{
+    margin-bottom: 100px;
+    
+}
+
+footer{
+    background-color: #323E48;
+    height:200px;
+    color:white;
+}
+
+
+
+.sociallinks{
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    border: solid 1.5px #4a4a4a;
+    border-radius: 35%;
+    padding: 13px;
+}
+.work-info{
+    position:absolute;
+    top:118px;
+    left: 56px;
+    color: white;
+   
+}
+
+/* .work-item:hover .work-inner {
+    background: rgba(0, 0, 0, 0.8);
+} */
+
+.work-info h3{
+    background-color: white;
+    color:grey;
+    border-radius: 25px;
+    width:300px;
+    text-align: center;
+    font-size:22;
+}
+
+.work-info h2{
+    font-size: 25px;
+    padding-left:16px;
+}
+
+/*  section{
+    padding: 50px 0;
+}*/
+
+
+/*	gallery */
+
+.gallery-title{
+    font-size: 36px;
+    color: #3F6184;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+    margin-top:50px;
+}
+.filter-button{
+    font-size: 15px;
+    border: 1px solid #7f7f98;
+	padding:5px 10px;
+    text-align: center;
+    color: #3F6184;
+    margin-bottom: 30px;
+    background:transparent;
+    border-radius:35px;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+    color: #ffffff;
+    background-color:#3F6184;
+	outline:none;
+}
+.gallery_product{
+    
+	position:relative;
+	padding:0;
+}
+.gallery_product .img-info{
+	position: absolute;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+    margin-bottom: 36px;
+   
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+    width: 350px;
+}
+.img-responsive{
+    margin-bottom: 36px;
+   
+}
+.fancybox{
+    margin-bottom: 5px;
+}
+/*	end gallery */
+
+.welcom{
+    font-size:20px;
+    color: #a59c9c;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #0a0a0a;
+}
+
+.banner{
+    background-image: url('')
+}
+
+/* feedback styling */
+.mainfeed{
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.feed{
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+.para1{
+    font-size: 20px;
+    color: #747d88!important;
+    line-height: 1.8em;
+    text-align: left;
+    font-family: poppins medium;
+}
+.pround{
+    border-radius: 50px;
+}
+
+.para-style{
+    margin-bottom: 50px;
+}
+
+
+/* Hireme  css */
+
+.form-i{
+    width:100%;
+    height:30px;
+    margin: 5px;
+    margin-bottom:20px;
+
+
+    
+}
+
+.form{
+    
+    padding: 10px;
+    color: black;
+    background-color: #ffffff3e;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-t{
+    width:100%;
+    border-radius: 20px;
+}
+input{
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius:20px;
+    padding: 15px;
+}
+
+.hire{
+    width:100px;
+    height:40px;
+    margin-top: 10px;
+   border-radius: 26px;
+}
+
+
+
+.__me{
+    /* background: url(../img/pic.jpg); */
+    background:url(../img/findimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.bgimg-info{
+    text-align: center;
+    /* background-color: rgb(135, 135, 253); */
+    background: rgba(1, 1, 2, 0.25);
+    color:white;
+    margin-top: 50px;
+}
+
+.bghead{
+    font-family:poppins medium;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1.4em;
+}
+
+.bgimg-info p{
+    font-size: 22px;
+    line-height: 1.8em;
+}
+
+.carousel-inner{
+    margin-top: 50px;
+}
+
+.btn-primary { 
+    color: #fff;
+    background-color: #057ee4;
+    border-color: #2e6da4;
+
+}
+    
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 1px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    font-weight:bold;
+    color:blue;
+}
